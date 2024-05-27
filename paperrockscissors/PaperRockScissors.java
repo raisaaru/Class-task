@@ -8,11 +8,11 @@ public class PaperRockScissors {
     public String paperRockScissors(String player1, String player2){
         if(player1.equalsIgnoreCase(player2)){
             return(tie);
-        } else if (player1.equalsIgnoreCase("paper") & player2.equalsIgnoreCase("rock")) {
+        } else if (player1.equalsIgnoreCase("paper") && player2.equalsIgnoreCase("rock")) {
             return(player1Wins);
-        }else if (player1.equalsIgnoreCase("rock") & player2.equalsIgnoreCase("scissors")) {
+        }else if (player1.equalsIgnoreCase("rock") && player2.equalsIgnoreCase("scissors")) {
             return(player1Wins);
-        }else if (player1.equalsIgnoreCase("scissors") & player2.equalsIgnoreCase("paper")) {
+        }else if (player1.equalsIgnoreCase("scissors") && player2.equalsIgnoreCase("paper")) {
             return(player1Wins);
         } else{
             return(player2Wins);}
